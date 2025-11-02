@@ -1,14 +1,14 @@
 {
   "name": "Felipe Juan Dotfiles (GNOME setup)",
-  "description": "Dotfiles adapted for GNOME on Ubuntu",
+  "description": "Dotfiles adapted for GNOME on Ubuntu, including Zsh, Kitty, and Neovim",
   "dotfiles": [
     {
-      "source": "config/kitty",
-      "target": "~/.config/kitty"
+      "source": "config/kitty/kitty.conf",
+      "target": "~/.config/kitty/kitty.conf"
     },
     {
-      "source": "config/nvim",
-      "target": "~/.config/nvim"
+      "source": "config/nvim/init.vim",
+      "target": "~/.config/nvim/init.vim"
     },
     {
       "source": ".zshrc",
